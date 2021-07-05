@@ -73,5 +73,5 @@ def  playfavs():
     return favss
 
 connect()
-# remove(2)
-# print(show())
+
+# print(show()) 

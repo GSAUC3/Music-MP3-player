@@ -8,9 +8,15 @@ Will update other formats in the newer version
 
 A            --> To add songs to the player
 S            --> STOP
+F            --> Show favourites
 P            --> PLAY
 SPACEABR     --> PAUSE
 RIGHT ARROW  --> Next Song
 LEFT ARROW   --> Previous Song
 Crtl + S     --> Save song list    
 
+Drawbacks of this music player are
+  
+  . You can only play MP3 formats
+  . Your songs should be in the following path
+        D:/songs/

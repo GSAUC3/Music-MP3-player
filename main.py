@@ -64,6 +64,7 @@ class body:
         self.root.bind("<a>", lambda x: self.add_songs())
         self.root.bind("<space>", lambda a: self.pause(bondo))
         self.root.bind("<s>", lambda x: self.stop())
+        self.root.bind("<Control-s>", lambda x: self.save_playlist())
         self.root.bind("<o>", lambda x: self.openrecent())
         self.root.bind("<p>", lambda x: self.play())
         self.root.bind("<f>", lambda x: self.play_favs())
@@ -146,7 +147,7 @@ class body:
         # to save the playlist in a local database
         for s in self.song:
             a = s
-            a = a.replace('D:/EntertainmenT/songs/', '')
+            a = a.replace('D:/songs/', '')
             a = a.replace('.mp3', '')
             back.insert(a, s)
         
@@ -171,11 +172,11 @@ class body:
 
     def add_songs(self):
         # adding songs to the listbox screen
-        self.song = filedialog.askopenfilenames(initialdir='D:/EntertainmenT/songs/',
+        self.song = filedialog.askopenfilenames(initialdir='D:/songs/',
                                                 title='Add songs', filetypes=(("mp3 files", "*.mp3"),))
         for s in self.song:
 
-            s = s.replace('D:/EntertainmenT/songs/', '')
+            s = s.replace('D:/songs/', '')
             s = s.replace('.mp3', '')
             self.display.insert(END, s)
 
@@ -196,7 +197,7 @@ class body:
         else:
             self.fav.config(style='info.TButton')
 
-        self.gana = f'D:/EntertainmenT/songs/{gaan}.mp3'
+        self.gana = f'D:/songs/{gaan}.mp3'
         pygame.mixer.music.load(self.gana)
         pygame.mixer.music.play(loops=0)
         self.update_pbar()
