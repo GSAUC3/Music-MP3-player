@@ -1,0 +1,16 @@
+## Hello everyone!!!
+Welcome to GSauce's Music player
+
+For the time being it can only play .mp3 files
+Will update other formats in the newer version
+
+### Few Short-Cuts that will be useful.
+
+A            --> To add songs to the player
+S            --> STOP
+P            --> PLAY
+SPACEABR     --> PAUSE
+RIGHT ARROW  --> Next Song
+LEFT ARROW   --> Previous Song
+Crtl + S     --> Save song list    
+
