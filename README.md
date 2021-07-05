@@ -14,6 +14,13 @@
 - pillow
 - mutagen 
 
+### you can install those libraries using the following commands
+
+- `pip install ttkbootstrap==0.0.17`
+- `pip install pygame`
+- `pip install Pillow`
+- `pip install mutagen`
+
 ## screenshot is given below
 
 ***
