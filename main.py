@@ -1,4 +1,4 @@
-from sqlite3.dbapi2 import connect
+
 from tkinter import *
 from tkinter import messagebox
 from ttkbootstrap import *
