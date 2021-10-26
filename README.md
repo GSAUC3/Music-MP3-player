@@ -16,10 +16,9 @@
 
 ### you can install those libraries using the following commands
 
-- `pip install ttkbootstrap==0.0.17`
-- `pip install pygame`
-- `pip install Pillow`
-- `pip install mutagen`
+```python
+pip install -r requirements.txt
+```
 
 ## screenshot is given below
 

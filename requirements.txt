@@ -1,0 +1,4 @@
+pygame
+mutagen
+Pillow
+ttkbootstrap
